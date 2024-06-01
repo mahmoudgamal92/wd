@@ -1,0 +1,59 @@
+[21-Oct-2023 06:16:28 America/Boise] PHP Warning:  include_once(./../config/dbconnect.php): failed to open stream: No such file or directory in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 5
+[21-Oct-2023 06:16:28 America/Boise] PHP Warning:  include_once(): Failed opening './../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 5
+[21-Oct-2023 06:16:28 America/Boise] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 9
+[21-Oct-2023 06:16:28 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 10
+[21-Oct-2023 06:19:00 America/Boise] PHP Warning:  include_once(./../config/dbconnect.php): failed to open stream: No such file or directory in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 5
+[21-Oct-2023 06:19:00 America/Boise] PHP Warning:  include_once(): Failed opening './../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 5
+[21-Oct-2023 06:19:00 America/Boise] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 9
+[21-Oct-2023 06:19:00 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/zawyaonl/public_html/aqartech/api/notification/send.php on line 10
+[29-Nov-2023 04:53:40 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 04:53:40 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 04:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 04:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 04:53:40 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 04:53:41 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 04:53:41 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 04:53:41 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 04:53:41 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 04:53:41 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 04:53:42 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 04:53:42 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 04:53:42 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 04:53:42 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 04:53:42 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 05:37:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 05:47:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[29-Nov-2023 05:47:01 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:47:01 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 8
+[29-Nov-2023 05:47:01 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 13
+[29-Nov-2023 05:47:01 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 20
+[29-Nov-2023 05:47:01 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/search_for_me/list.php on line 22
+[04-Dec-2023 07:53:39 America/Chicago] Database Error: Unknown column 'user_token' in 'field list'
+[04-Dec-2023 07:55:22 America/Chicago] Database Error: Unknown column 'user_token' in 'field list'
+[04-Dec-2023 07:56:36 America/Chicago] Database Error: Unknown column 'user_token' in 'field list'
+[04-Dec-2023 08:01:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function send_notification() in /home3/user315325/bnookholding.com/wd/api/search_for_me/insert.php:64
+Stack trace:
+#0 {main}
+  thrown in /home3/user315325/bnookholding.com/wd/api/search_for_me/insert.php on line 64
+[04-Dec-2023 08:02:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function send_notification() in /home3/user315325/bnookholding.com/wd/api/search_for_me/insert.php:41
+Stack trace:
+#0 {main}
+  thrown in /home3/user315325/bnookholding.com/wd/api/search_for_me/insert.php on line 41

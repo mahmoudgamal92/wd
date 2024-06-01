@@ -1,0 +1,1 @@
+[16-Dec-2023 13:01:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/user315325/bnookholding.com/wd/dashboard/api/packages.php:4) in /home3/user315325/bnookholding.com/wd/dashboard/api/packages.php on line 41

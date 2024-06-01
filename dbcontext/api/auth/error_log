@@ -1,0 +1,42 @@
+[29-Nov-2023 03:55:41 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 8
+[29-Nov-2023 03:55:41 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 8
+[29-Nov-2023 03:55:41 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 15
+[29-Nov-2023 03:55:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 16
+[29-Nov-2023 03:55:41 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 17
+[29-Nov-2023 03:55:41 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 33
+[29-Nov-2023 03:57:07 America/Chicago] PHP Warning:  include_once(./../../config/dbconnect.php): failed to open stream: No such file or directory in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 8
+[29-Nov-2023 03:57:07 America/Chicago] PHP Warning:  include_once(): Failed opening './../../config/dbconnect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 8
+[29-Nov-2023 03:57:07 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 15
+[29-Nov-2023 03:57:07 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 16
+[29-Nov-2023 03:57:07 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 17
+[29-Nov-2023 03:57:07 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/user315325/bnookholding.com/wd/api/auth/siginin.php on line 33
+[05-Mar-2024 13:48:14 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:48:14 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:48:43 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:48:43 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:49:02 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:49:02 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:49:31 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:49:31 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:49:52 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:49:52 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:51:05 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:51:05 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:51:19 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:51:19 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:54:39 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:54:39 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:54:50 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:54:50 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 13:55:28 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 13:55:28 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 14:11:32 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 14:11:32 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 14:57:46 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 14:57:46 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 15:23:18 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 15:23:18 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 15:23:31 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 15:23:31 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3
+[05-Mar-2024 15:24:02 America/Boise] PHP Warning:  Undefined array key "phone" in /home3/zawyaonl/wdapp/api/auth/message.php on line 2
+[05-Mar-2024 15:24:02 America/Boise] PHP Warning:  Undefined array key "message" in /home3/zawyaonl/wdapp/api/auth/message.php on line 3

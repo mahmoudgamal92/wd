@@ -1,0 +1,96 @@
+Connection failed: SQLSTATE[HY000] [1045] Access denied for user 'mestamal_root'@'localhost' (using password: YES)
+
+NOTES
+ALERTS
+CHAT
+Chat List
+Show All
+
+A
+
+Archie Parker
+Kalid is online
+
+
+Alfie Mason
+Taherah left 7 mins ago
+
+
+AharlieKane
+Sami is online
+
+
+Athan Jacoby
+Nargis left 30 mins ago
+
+B
+
+Bashid Samim
+Rashid left 50 mins ago
+
+
+Breddie Ronan
+Kalid is online
+
+
+Ceorge Carson
+Taherah left 7 mins ago
+
+D
+
+Darry Parker
+Sami is online
+
+
+Denry Hunter
+Nargis left 30 mins ago
+
+J
+
+Jack Ronan
+Rashid left 50 mins ago
+
+
+Jacob Tucker
+Kalid is online
+
+
+James Logan
+Taherah left 7 mins ago
+
+
+Joshua Weston
+Sami is online
+
+O
+
+Oliver Acker
+Nargis left 30 mins ago
+
+
+Oscar Weston
+Rashid left 50 mins ago
+
+أبحث هنا
+Mahmoud Gamal.
+Admin
+
+
+العملاء
+العقارات
+قسم المالية
+باقات الإشتراك
+كوبونات الخصم
+الفواتير
+التقارير المالية
+منصة ود العقارية © 2024 جميع الحقوق محفوظة
+
+كوبونات الخصم
+
+Warning
+: foreach() argument must be of type array|object, null given in
+C:\xampp\htdocs\wd\dashboard\coupons.php
+on line
+167
+
+Copyright © Designed & Developed by mgamal 2023

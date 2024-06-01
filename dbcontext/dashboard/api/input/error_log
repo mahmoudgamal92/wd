@@ -1,0 +1,2 @@
+[02-Dec-2023 20:57:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/user315325/bnookholding.com/wd/dashboard/api/input/insert.php:12) in /home3/user315325/bnookholding.com/wd/dashboard/api/input/insert.php on line 18
+[02-Dec-2023 21:00:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/user315325/bnookholding.com/wd/dashboard/api/input/insert.php:12) in /home3/user315325/bnookholding.com/wd/dashboard/api/input/insert.php on line 18
