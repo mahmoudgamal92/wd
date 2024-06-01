@@ -3,7 +3,7 @@ include './../dbcontext/connect.php';
 ?>
 <?php
 $cmd = "select * from packages";
-$res = mysqli_query($con,$cmd);
+$res = mysqli_query($con, $cmd);
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ $res = mysqli_query($con,$cmd);
     <meta property="og:description" content="Aqartech :  Property Admin Dashboard  Bootstrap 5 Template" />
     <meta property="og:image" content="social-image.png" />
     <meta name="format-detection" content="telephone=no">
-    <title>لوحة التحكم عقارنك</title>
+    <title>لوحة التحكم ود</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
@@ -83,215 +83,203 @@ $res = mysqli_query($con,$cmd);
         <div class="content-body">
             <!-- row -->
             <div class="container-fluid">
-            <div class="form-head page-titles">
-					<div class="row">
+                <div class="form-head page-titles">
+                    <div class="row">
 
-						<div class="col-md-10">
-							<div class="me-auto  d-lg-block">
-								<h2 class="text-black font-w600">
-                                    باقات الإشتراك 
-								</h2>
-							</div>
-						</div>
+                        <div class="col-md-10">
+                            <div class="me-auto  d-lg-block">
+                                <h2 class="text-black font-w600">
+                                    باقات الإشتراك
+                                </h2>
+                            </div>
+                        </div>
 
-						<div class="col-md-2">
-							<div class="row">
-								<div class="col-md-6">
-                                <a class="btn btn-primary rounded" data-bs-toggle="modal"
-										data-bs-target="#exampleModalCenter">
-                                    <div class="row">
-                                        <i class="fas fa-plus me-0"></i>
-                                        <span> إضافة باقة جديدة </span>
-                                    </div>
-										
-									</a>
-								</div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="btn btn-primary rounded" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                        <div class="row">
+                                            <i class="fas fa-plus me-0"></i>
+                                            <span> إضافة باقة جديدة </span>
+                                        </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
                 <div class="modal fade" id="exampleModalCenter">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">
-									إضافة باقة جديدة
-								</h5>
-								<button type="button" class="btn-close" data-bs-dismiss="modal">
-								</button>
-							</div>
-							<div class="modal-body">
-								<div class="basic-form">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    إضافة باقة جديدة
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal">
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="basic-form">
 
-									<form method="POST" action="api/packages.php">
-										<input type="hidden" name="action" value="create">
-										<div class="row">
-
-											
-											<div class="col-md-12">
-												<div class="mb-3">
-													<input type="text" class="form-control input-default" name="title"
-														placeholder="أدخل أسم الباقة" required>
-												</div>
-											</div>
-
-											<div class="col-md-12">
-												<div class="mb-3">
-													<input type="text" class="form-control input-rounded" name="max_ads"
-														placeholder=" أدخل عدد الإعلانات الكلية " required>
-												</div>
-											</div>
-
-                                            <div class="col-md-12">
-												<div class="mb-3">
-													<input type="text" class="form-control input-rounded" name="featured"
-														placeholder=" أدخل عدد الإعلانات المميزة " required>
-												</div>
-											</div>
+                                    <form method="POST" action="api/packages.php">
+                                        <input type="hidden" name="action" value="create">
+                                        <div class="row">
 
 
                                             <div class="col-md-12">
-												<div class="mb-3">
-													<input type="text" class="form-control input-rounded" name="coords"
-														placeholder=" أدخل عدد المستخدمين " required>
-												</div>
-											</div>
-
-                                            
-                                            <div class="col-md-12">
-												<div class="mb-3">
-													<input type="text" class="form-control input-rounded" name="price"
-														placeholder=" أدخل سعر الباقة  " required>
-												</div>
-											</div>
-
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control input-default" name="title" placeholder="أدخل أسم الباقة" required>
+                                                </div>
+                                            </div>
 
                                             <div class="col-md-12">
-												<div class="mb-3">
-													<input type="text" class="form-control input-rounded" name="desc"
-														placeholder="بيانات إضافية" required>
-												</div>
-											</div>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control input-rounded" name="max_ads" placeholder=" أدخل عدد الإعلانات الكلية " required>
+                                                </div>
+                                            </div>
 
-                                            
-											<div class="col-md-12">
-												<div class="mb-3">
-													<select dir="rtl" name="duration"
-														class="default-select form-control wide mb-3">
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control input-rounded" name="featured" placeholder=" أدخل عدد الإعلانات المميزة " required>
+                                                </div>
+                                            </div>
 
-														<option value="30">شهريا</option>
-														<option value="90">ربع سنوية</option>
-                                                        <option value="180">نصف سنوية  </option>
+
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control input-rounded" name="coords" placeholder=" أدخل عدد المستخدمين " required>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control input-rounded" name="price" placeholder=" أدخل سعر الباقة  " required>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control input-rounded" name="desc" placeholder="بيانات إضافية" required>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <select dir="rtl" name="duration" class="default-select form-control wide mb-3">
+
+                                                        <option value="30">شهريا</option>
+                                                        <option value="90">ربع سنوية</option>
+                                                        <option value="180">نصف سنوية </option>
                                                         <option value="365">سنوية</option>
-													</select>
+                                                    </select>
 
-												</div>
-											</div>
+                                                </div>
+                                            </div>
 
 
 
-										</div>
-								</div>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger light"
-									data-bs-dismiss="modal">إغلاق</button>
-								<button type="submit" class="btn btn-primary">حفظ</button>
-							</div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger light" data-bs-dismiss="modal">إغلاق</button>
+                                <button type="submit" class="btn btn-primary">حفظ</button>
+                            </div>
 
-							</form>
+                            </form>
 
-						</div>
-					</div>
-				</div>
+                        </div>
+                    </div>
+                </div>
 
 
 
                 <div>
                     <div class="container-fluid">
-                    <div class="row">
-                        <?php
+                        <div class="row">
+                            <?php
 
-            while($row = mysqli_fetch_array($res))
-            {
-                ?>
-                        <div class="col-xl-3 col-lg-12 col-sm-12">
-                            <div class="card overflow-hidden">
-                                <div class="text-center p-3 overlay-box "
-                                    style="background-image: url(images/big/img1.jpg);">
-                                    <div class="profile-photo">
-                                        <img src="images/logo.png" width="100" class="img-fluid rounded-circle" alt=""
-                                            style="background-color:#FFF">
+                            while ($row = mysqli_fetch_array($res)) {
+                            ?>
+                                <div class="col-xl-3 col-lg-12 col-sm-12">
+                                    <div class="card overflow-hidden">
+                                        <div class="text-center p-3 overlay-box " style="background-image: url(images/big/img1.jpg);">
+                                            <div class="profile-photo">
+                                                <img src="images/logo.png" width="100" class="img-fluid rounded-circle" alt="" style="background-color:#FFF">
+                                            </div>
+                                            <h3 class="mt-3 mb-1 text-white">
+                                                الباقة الأساسية
+                                            </h3>
+                                            <p class="text-white mb-0">
+                                                2000 SR
+                                            </p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+
+                                            <li class="list-group-item d-flex justify-content-between">
+                                                <span class="mb-0">عدد الإعلانات</span>
+                                                <strong class="text-muted">
+                                                    100
+                                                </strong>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between">
+                                                <span class="mb-0">عدد الإعلامات المميزة</span>
+                                                <strong class="text-muted">
+                                                    10
+                                                </strong>
+                                            </li>
+
+
+
+                                            <li class="list-group-item d-flex justify-content-between">
+                                                <span class="mb-0">عدد المستخدمين</span>
+                                                <strong class="text-muted">
+                                                    5
+                                                </strong>
+                                            </li>
+
+
+                                            <li class="list-group-item d-flex justify-content-between">
+                                                <span class="mb-0">السعر </span>
+                                                <strong class="text-muted">
+                                                    1550 ريال
+                                                </strong>
+                                            </li>
+
+
+                                            <li class="list-group-item d-flex justify-content-between">
+                                                <span class="mb-0">فترة التجديد</span>
+                                                <strong class="text-muted">
+                                                    شهريا
+                                                </strong>
+                                            </li>
+                                        </ul>
+                                        <div class="card-footer border-0 mt-0">
+                                            <button class="btn btn-primary btn-lg btn-block">
+                                                <i class="fa fa-bell-o"></i>
+                                                <span>
+                                                    تعديل البيانات
+                                                </span>
+                                            </button>
+                                        </div>
                                     </div>
-                                    <h3 class="mt-3 mb-1 text-white">
-                                        الباقة الأساسية
-                                    </h3>
-                                    <p class="text-white mb-0">
-                                        2000 SR
-                                    </p>
                                 </div>
-                                <ul class="list-group list-group-flush">
-
-                                    <li class="list-group-item d-flex justify-content-between">
-                                        <span class="mb-0">عدد الإعلانات</span>
-                                        <strong class="text-muted">
-                                            100
-                                        </strong>
-                                    </li>
-
-                                    <li class="list-group-item d-flex justify-content-between">
-                                        <span class="mb-0">عدد الإعلامات المميزة</span>
-                                        <strong class="text-muted">
-                                            10
-                                        </strong>
-                                    </li>
 
 
-
-                                    <li class="list-group-item d-flex justify-content-between">
-                                        <span class="mb-0">عدد المستخدمين</span>
-                                        <strong class="text-muted">
-                                            5
-                                        </strong>
-                                    </li>
-
-
-                                    <li class="list-group-item d-flex justify-content-between">
-                                        <span class="mb-0">السعر </span>
-                                        <strong class="text-muted">
-                                            1550 ريال
-                                        </strong>
-                                    </li>
-
-
-                                    <li class="list-group-item d-flex justify-content-between">
-                                        <span class="mb-0">فترة التجديد</span>
-                                        <strong class="text-muted">
-                                            شهريا
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <div class="card-footer border-0 mt-0">
-                                    <button class="btn btn-primary btn-lg btn-block">
-                                        <i class="fa fa-bell-o"></i>
-                                        <span>
-                                            تعديل البيانات
-                                        </span>
-                                    </button>
-                                </div>
-                            </div>
+                            <?php
+                            }
+                            ?>
                         </div>
-
-
-                        <?php
-}
-?>
                     </div>
-</div>
                 </div>
             </div>
             <!--**************Content body end ***********-->

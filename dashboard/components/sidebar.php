@@ -1,106 +1,66 @@
 <div class="deznav">
-            <div class="deznav-scroll">
-				<ul class="metismenu" id="menu">
-                    <li>
-                        <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-							<i class="flaticon-dashboard-1"></i>
-							<span class="nav-text">
-                                العملاء
-                            </span>
-						</a>
-                        <ul aria-expanded="false">
-							<li><a href="customers.php">المستخدمين</a></li>
-							
-						</ul>
-                    </li>
-                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-							<i class="flaticon-app"></i>
-							<span class="nav-text">العقارات</span>
-						</a>
-                        <ul aria-expanded="false">
+    <div class="deznav-scroll">
+        <ul class="metismenu" id="menu">
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-dashboard-1"></i>
+                    <span class="nav-text">
+                        العملاء
+                    </span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="customers.php">المعلنين</a></li>
+                    <li><a href="customers.php">المستخدمين</a></li>
+                    <li><a href="marketers.php">المسوقين العقاريين</a></li>
 
-                            <li><a href="props.php">عرض العقارات </a></li>
-                            <li><a href="cats.php">فئات العقارات</a></li>
-                            <li><a href="inputs.php">المدخلات</a></li>
-
-							<li><a href="post-details.html">إضافة عقار</a></li>
-                        </ul>
-                    </li>
-
-
-                    
-                    
-                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-                    <i class="flaticon-settings"></i>
-							<span class="nav-text">الإعدادت</span>
-						</a>
-                        <ul aria-expanded="false">
-                            <li><a href="states.php">المناطق</a></li>
-                            <li><a href="cities.php">المدن</a></li>
-                            <li><a href="districts.php">الأحياء</a></li>
-                        </ul>
-                    </li>
-
-
-
-                    
-                    <li>
-                        <a class="has-arrow ai-icon" href="packages.php" aria-expanded="false">
-							<i class="flaticon-bar-chart-2"></i>
-							<span class="nav-text">باقات الإشتراك</span>
-						</a>
-                    </li>
-                
-
-
-
-
-                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-							<i class="flaticon-form-1"></i>
-							<span class="nav-text">الفواتير</span>
-						</a>
-                        <ul aria-expanded="false">
-                            <li><a href="form-element.html">Form Elements</a></li>
-                            <li><a href="form-wizard.html">Wizard</a></li>
-                            <li><a href="form-ckeditor.html">CkEditor</a></li>
-                            <li><a href="form-pickers.html">Pickers</a></li>
-                            <li><a href="form-validation-jquery.html">Jquery Validate</a></li>
-                        </ul>
-                    </li>
-
-                    
-                    <!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-							<i class="flaticon-table"></i>
-							<span class="nav-text">Table</span>
-						</a>
-                        <ul aria-expanded="false">
-                            <li><a href="table-bootstrap-basic.html">Bootstrap</a></li>
-                            <li><a href="table-datatable-basic.html">Datatable</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-							<i class="flaticon-landing-page"></i>
-							<span class="nav-text">Pages</span>
-						</a>
-                        <ul aria-expanded="false">
-                            <li><a href="page-register.html">Register</a></li>
-                            <li><a href="page-login.html">Login</a></li>
-                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="page-error-400.html">Error 400</a></li>
-                                    <li><a href="page-error-403.html">Error 403</a></li>
-                                    <li><a href="page-error-404.html">Error 404</a></li>
-                                    <li><a href="page-error-500.html">Error 500</a></li>
-                                    <li><a href="page-error-503.html">Error 503</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="page-lock-screen.html">Lock Screen</a></li>
-                        </ul>
-                    </li> -->
                 </ul>
-				
-				<div class="copyright">
-					<p><strong>Aqargate Dashboard</strong> © 2022 All Rights Reserved</p>
-				</div>
-			</div>
+            </li>
+            <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-app"></i>
+                    <span class="nav-text">العقارات</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="props.php">عرض العقارات </a></li>
+                    <li><a href="add_prop.php">إضافة عقار</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="fas fa-cog me-0"></i>
+                    <span class="nav-text">
+                        إعدادات التطبيق
+                    </span>
+                </a>
+                <ul aria-expanded="false">
+
+                    <li><a href="cats.php">الأقسام الرئيسية</a></li>
+                    <li><a href="inputs.php">المدخلات</a></li>
+
+
+                </ul>
+            </li>
+
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-bar-chart-2"></i>
+                    <span class="nav-text">قسم المالية</span>
+
+                </a>
+
+                <ul aria-expanded="false">
+                    <li><a href="packages.php">باقات الإشتراك</a></li>
+                    <li><a href="coupons.php">كوبونات الخصم</a></li>
+                    <li><a href="bills.php">الفواتير</a></li>
+                    <li><a href="reports.php">التقارير المالية</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="copyright">
+            <p><strong>منصة ود العقارية</strong>
+                © 2024 جميع الحقوق محفوظة
+            </p>
         </div>
+    </div>
+</div>

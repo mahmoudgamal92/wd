@@ -1,6 +1,0 @@
-
-[25-Feb-2024 02:12:37 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zawyaonl_wd.properties' doesn't exist in /home3/zawyaonl/wdapp/dashboard/index.php:8
-Stack trace:
-#0 /home3/zawyaonl/wdapp/dashboard/index.php(8): mysqli_query(Object(mysqli), 'select * from p...')
-#1 {main}
-  thrown in /home3/zawyaonl/wdapp/dashboard/index.php on line 8

@@ -16,7 +16,7 @@ include './../dbcontext/connect.php';
 	<meta property="og:description" content="Aqartech :  Property Admin Dashboard  Bootstrap 5 Template" />
 	<meta property="og:image" content="social-image.png" />
 	<meta name="format-detection" content="telephone=no">
-	<title>لوحة التحكم عقارنك</title>
+	<title>لوحة التحكم ود</title>
 	<!-- Favicon icon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
 	<link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
@@ -78,8 +78,7 @@ include './../dbcontext/connect.php';
 							<div class="row">
 
 								<div class="col-md-6">
-									<a class="btn btn-primary rounded" data-bs-toggle="modal"
-										data-bs-target="#exampleModalCenter">جديد</a>
+									<a class="btn btn-primary rounded" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">جديد</a>
 								</div>
 
 								<div class="col-md-6">
@@ -101,7 +100,7 @@ include './../dbcontext/connect.php';
 						<div class="modal-content">
 							<div class="modal-header">
 								<h5 class="modal-title">
-						        Enter New Input 
+									Enter New Input
 								</h5>
 								<button type="button" class="btn-close" data-bs-dismiss="modal">
 								</button>
@@ -115,24 +114,21 @@ include './../dbcontext/connect.php';
 										<div class="row">
 											<div class="col-md-12">
 												<div class="mb-3">
-													<input type="text" class="form-control input-default"
-														name="input_label" placeholder="Enter Input Label">
+													<input type="text" class="form-control input-default" name="input_label" placeholder="Enter Input Label">
 												</div>
 											</div>
-											
+
 											<div class="col-md-12">
 												<div class="mb-3">
-													<input type="text" class="form-control input-rounded"
-														name="input_placeholder" placeholder="Enter Input Placeholder">
+													<input type="text" class="form-control input-rounded" name="input_placeholder" placeholder="Enter Input Placeholder">
 												</div>
 											</div>
-											
-											
-												
+
+
+
 											<div class="col-md-12">
 												<div class="mb-3">
-													<input type="text" class="form-control input-rounded"
-														name="input_key" placeholder="Enter Input Programmable Key">
+													<input type="text" class="form-control input-rounded" name="input_key" placeholder="Enter Input Programmable Key">
 												</div>
 											</div>
 
@@ -169,8 +165,7 @@ include './../dbcontext/connect.php';
 
 										</div>
 										<div class="modal-footer">
-											<button type="button" class="btn btn-danger light"
-												data-bs-dismiss="modal">إغلاق</button>
+											<button type="button" class="btn btn-danger light" data-bs-dismiss="modal">إغلاق</button>
 											<button type="submit" class="btn btn-primary">حفظ</button>
 										</div>
 
@@ -215,46 +210,45 @@ include './../dbcontext/connect.php';
 										$res = $con->query($cmd);
 										while ($row = $res->fetch_assoc()) {
 
-											?>
-										<tr>
+										?>
+											<tr>
 
-											<td><strong>
-													<?php echo $row['input_id']; ?>
-												</strong></td>
-											<td>
-												<div class="d-flex align-items-center">
-													<span class="w-space-no">
-														<?php echo $row['input_desc']; ?>
-													</span>
-												</div>
-											</td>
-											<td>
-												<?php echo $row['input_type']; ?>
-											</td>
-											<td>
-												<?php echo $row['input_role']; ?>
-											</td>
-											<td>
-												<div class="d-flex align-items-center"><i
-														class="fas fa-circle text-success me-1"></i> Active</div>
-											</td>
-											<td>
-												<div class="d-flex">
-													<a href="inputinfo.php?id=<?=$row['input_id']?>" class="btn btn-primary shadow btn-xs sharp me-1">
-														<i class="fas fa-eye"></i>
+												<td><strong>
+														<?php echo $row['input_id']; ?>
+													</strong></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<span class="w-space-no">
+															<?php echo $row['input_desc']; ?>
+														</span>
+													</div>
+												</td>
+												<td>
+													<?php echo $row['input_type']; ?>
+												</td>
+												<td>
+													<?php echo $row['input_role']; ?>
+												</td>
+												<td>
+													<div class="d-flex align-items-center"><i class="fas fa-circle text-success me-1"></i> Active</div>
+												</td>
+												<td>
+													<div class="d-flex">
+														<a href="inputinfo.php?id=<?= $row['input_id'] ?>" class="btn btn-primary shadow btn-xs sharp me-1">
+															<i class="fas fa-eye"></i>
+														</a>
+
+
+													</div>
+												</td>
+
+												<td>
+													<a href="api/input/delete.php?id=<?php
+																						echo $row['input_id']; ?>" class="btn btn-danger shadow btn-xs sharp">
+														<i class="fas fa-trash"></i>
 													</a>
-
-
-												</div>
-											</td>
-
-											<td>
-												<a href="api/input/delete.php?id=<?php  
-												echo $row['input_id']; ?>" class="btn btn-danger shadow btn-xs sharp">
-													<i class="fas fa-trash"></i>
-												</a>
-											</td>
-										</tr>
+												</td>
+											</tr>
 
 										<?php
 										}
@@ -284,4 +278,5 @@ include './../dbcontext/connect.php';
 	<script src="js/custom.min.js"></script>
 	<script src="js/deznav-init.js"></script>
 </body>
+
 </html>

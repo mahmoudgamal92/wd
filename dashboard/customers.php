@@ -2,11 +2,12 @@
 include './../dbcontext/connect.php';
 ?>
 <?php
-         $sql = "select * from users order by user_id desc";
-		 $result = mysqli_query($con, $sql);
+$sql = "select * from users order by user_id desc";
+$result = mysqli_query($con, $sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +20,7 @@ include './../dbcontext/connect.php';
 	<meta property="og:description" content="Aqartech :  Property Admin Dashboard  Bootstrap 5 Template" />
 	<meta property="og:image" content="social-image.png" />
 	<meta name="format-detection" content="telephone=no">
-	<title>لوحة التحكم عقارنك</title>
+	<title>لوحة التحكم ود</title>
 	<!-- Favicon icon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
 	<link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
@@ -84,98 +85,96 @@ include './../dbcontext/connect.php';
 		<div class="content-body">
 			<!-- row -->
 			<div class="container-fluid">
-				<div class="form-head page-titles d-flex  align-items-center">
-					<div class="me-auto  d-lg-block">
-						<h2 class="text-black font-w600">
+				<div class="form-head page-titles">
+					<div class="page_header">
+						<h3 class="text-gray">
 							قائمة المستخدمين
-						</h2>
+						</h3>
 
+						<div style=" display: flex;">
+
+							<a href="javascript:void(0);" class="btn btn-primary rounded light" style="margin: 0px 10px 0px 10px">
+								تحديث
+							</a>
+							<a href="javascript:void(0);" class="btn btn-primary rounded">
+								<i class="fas fa-cog me-0"></i>
+							</a>
+						</div>
 					</div>
-					<a href="javascript:void(0);" class="btn btn-primary rounded light me-3">تحديث</a>
-
-					<a href="javascript:void(0);" class="btn btn-primary rounded">
-						<i class="fas fa-cog me-0"></i>
-					</a>
 				</div>
-				<?php 
-			  while($UserInfo = mysqli_fetch_array($result))
-			  {
+				<?php
+				while ($UserInfo = mysqli_fetch_array($result)) {
 				?>
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="card">
-							<div class="card-body p-0">
-								<div class="row border-bottom mx-0 pt-4 px-2 align-items-center">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="card">
+								<div class="card-body p-0">
+									<div class="row border-bottom mx-0 pt-4 px-2 align-items-center">
 
 
-									<div
-										class="col-xl-3 col-xxl-4 col-lg-6 col-sm-12 mb-sm-4 mb-3 align-items-center media">
-										<?php
-                                                if($UserInfo['user_image'] == "")
-                                                {
-                                                ?>
-                                                
-												<img class="me-sm-4 me-3 img-fluid rounded" width="90"
-											src="images/man.png" style="margin:10px" alt="user image">
-                                              <?php
-                                                }
-                                              else
-                                              {
-                                              ?>
-											<img class="me-sm-4 me-3 img-fluid rounded" width="90"
-											src="./uploads/<?php echo $UserInfo['user_image']?>" style="margin:10px" alt="user image">
-                                             <?php
-                                              }
-                                              ?>
+										<div class="col-xl-3 col-xxl-4 col-lg-6 col-sm-12 mb-sm-4 mb-3 align-items-center media">
+											<?php
+											if ($UserInfo['user_image'] == "") {
+											?>
+
+												<img class="me-sm-4 me-3 img-fluid rounded" width="90" src="images/man.png" style="margin:10px" alt="user image">
+											<?php
+											} else {
+											?>
+												<img class="me-sm-4 me-3 img-fluid rounded" width="90" src="./uploads/<?php echo $UserInfo['user_image'] ?>" style="margin:10px" alt="user image">
+											<?php
+											}
+											?>
 
 
-										<div class="media-body">
-											<span class="text-primary d-block">
-											<?php echo "#".$UserInfo['user_id']; ?>
-											</span>
-											<h3 class="fs-20 text-black font-w600 mb-1">
-											<?php echo $UserInfo['user_name'];?>
-											</h3>
-											<span class="d-block mb-lg-0 mb-0">
-											<?php echo "User_Type"?>
+											<div class="media-body">
+												<span class="text-primary d-block">
+													<?php echo "#" . $UserInfo['user_id']; ?>
+												</span>
+												<h3 class="fs-20 text-black font-w600 mb-1">
+													<?php echo $UserInfo['user_name']; ?>
+												</h3>
+												<span class="d-block mb-lg-0 mb-0">
+													<?php echo "User_Type" ?>
+												</span>
+											</div>
+
+										</div>
+
+
+										<div class="col-xl-2 col-xxl-3 col-lg-3 col-sm-4 mb-sm-4 col-6 mb-3 text-lg-center">
+											<small class="mb-2 d-block">رقم الهاتف</small>
+											<span class="text-black font-w600">
+												<?php echo $UserInfo['user_phone']; ?>
 											</span>
 										</div>
 
-									</div>
+										<div class="col-xl-2 col-xxl-3 col-lg-6 col-sm-4 mb-sm-4 mb-3">
+											<small class="mb-2 d-block">البريد الإلكتروني</small>
+											<span class="text-black font-w600">
+												<?php echo $UserInfo['user_phone']; ?>
+											</span>
+										</div>
 
 
-									<div class="col-xl-2 col-xxl-3 col-lg-3 col-sm-4 mb-sm-4 col-6 mb-3 text-lg-center">
-										<small class="mb-2 d-block">رقم الهاتف</small>
-										<span class="text-black font-w600">
-										<?php echo $UserInfo['user_phone'];?>
-										</span>
-									</div>
-
-									<div class="col-xl-2 col-xxl-3 col-lg-6 col-sm-4 mb-sm-4 mb-3">
-										<small class="mb-2 d-block">البريد الإلكتروني</small>
-										<span class="text-black font-w600">
-										<?php echo $UserInfo['user_phone'];?>
-										</span>
-									</div>
 
 
-								
-
-									<div class="col-xl-2 col-xxl-2 col-lg-3 col-sm-4 mb-sm-4">
-										<div class="dropdown ms-4  mt-auto mb-auto">
-											<div class="btn-link" data-bs-toggle="dropdown">
-												<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-														<rect x="0" y="0" width="24" height="24"></rect>
-														<circle fill="#000000" cx="5" cy="12" r="2"></circle>
-														<circle fill="#000000" cx="12" cy="12" r="2"></circle>
-														<circle fill="#000000" cx="19" cy="12" r="2"></circle>
-													</g>
-												</svg>
-											</div>
-											<div class="dropdown-menu dropdown-menu-end">
-												<a class="dropdown-item" href="customer.php?user_id=<?php echo $UserInfo['user_id']; ?>">عرض البيانات</a>
-												<a class="dropdown-item" href="javascript:void(0);">حذف</a>
+										<div class="col-xl-2 col-xxl-2 col-lg-3 col-sm-4 mb-sm-4">
+											<div class="dropdown ms-4  mt-auto mb-auto">
+												<div class="btn-link" data-bs-toggle="dropdown">
+													<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+														<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+															<rect x="0" y="0" width="24" height="24"></rect>
+															<circle fill="#000000" cx="5" cy="12" r="2"></circle>
+															<circle fill="#000000" cx="12" cy="12" r="2"></circle>
+															<circle fill="#000000" cx="19" cy="12" r="2"></circle>
+														</g>
+													</svg>
+												</div>
+												<div class="dropdown-menu dropdown-menu-end">
+													<a class="dropdown-item" href="customer.php?user_id=<?php echo $UserInfo['user_id']; ?>">عرض البيانات</a>
+													<a class="dropdown-item" href="javascript:void(0);">حذف</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -183,16 +182,15 @@ include './../dbcontext/connect.php';
 							</div>
 						</div>
 					</div>
-				</div>
 
 
-<?php
-}
-?>
+				<?php
+				}
+				?>
 
 
 
-				
+
 
 			</div>
 		</div>

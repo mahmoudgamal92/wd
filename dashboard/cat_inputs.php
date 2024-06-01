@@ -9,8 +9,7 @@ $cmd1 = "select * from cat_inputs where cat_id = '$cat_id'";
 $result1 = mysqli_query($con, $cmd1);
 
 $inputs = [];
-while( $row = mysqli_fetch_array($result1))
-{
+while ($row = mysqli_fetch_array($result1)) {
     $inputs[] = $row['input_id'];
 }
 //echo count( $inputs);
@@ -31,7 +30,7 @@ while( $row = mysqli_fetch_array($result1))
     <meta property="og:description" content="Aqartech :  Property Admin Dashboard  Bootstrap 5 Template" />
     <meta property="og:image" content="social-image.png" />
     <meta name="format-detection" content="telephone=no">
-    <title>لوحة التحكم عقارنك</title>
+    <title>لوحة التحكم ود</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
@@ -91,8 +90,7 @@ while( $row = mysqli_fetch_array($result1))
                         <button type="submit" class="btn btn-primary rounded light me-3">
                             حفظ
                         </button>
-                        <a href="javascript:void(0);" class="btn btn-primary rounded"><i
-                                class="fas fa-cog me-0"></i></a>
+                        <a href="javascript:void(0);" class="btn btn-primary rounded"><i class="fas fa-cog me-0"></i></a>
                     </div>
 
                     <div class="col-lg-12">
@@ -108,8 +106,7 @@ while( $row = mysqli_fetch_array($result1))
                                         <thead>
                                             <tr>
                                                 <th class="width50">
-                                                    <div
-                                                        class="form-check custom-checkbox checkbox-success check-lg me-3">
+                                                    <div class="form-check custom-checkbox checkbox-success check-lg me-3">
                                                         <input type="checkbox" class="form-check-input" id="checkAll">
                                                         <label class="custom-control-label" for="checkAll"></label>
                                                     </div>
@@ -127,21 +124,16 @@ while( $row = mysqli_fetch_array($result1))
                                             $cmd = "select * from inputs";
                                             $res = $con->query($cmd);
                                             while ($row = $res->fetch_assoc()) {
-                                                ?>
+                                            ?>
                                                 <tr>
                                                     <td>
-                                                        <div
-                                                            class="form-check custom-checkbox checkbox-success check-lg me-3">
-                                                            <input type="checkbox" class="form-check-input"
-                                                                id="customCheckBox2" name="inputs[]"
-                                                                value="<?php echo $row['input_id']; ?>"
-                                                                <?php
-                                                                
-                                                                if(in_array($row['input_id'],$inputs)) {
-                                                                    echo "checked";
-                                                                }
-                                                                ?>
-                                                                >
+                                                        <div class="form-check custom-checkbox checkbox-success check-lg me-3">
+                                                            <input type="checkbox" class="form-check-input" id="customCheckBox2" name="inputs[]" value="<?php echo $row['input_id']; ?>" <?php
+
+                                                                                                                                                                                            if (in_array($row['input_id'], $inputs)) {
+                                                                                                                                                                                                echo "checked";
+                                                                                                                                                                                            }
+                                                                                                                                                                                            ?>>
                                                         </div>
                                                     </td>
                                                     <td>
@@ -163,13 +155,12 @@ while( $row = mysqli_fetch_array($result1))
                                                         <?php echo $row['input_role']; ?>
                                                     </td>
                                                     <td>
-                                                        <div class="d-flex align-items-center"><i
-                                                                class="fas fa-circle text-success me-1"></i> Active</div>
+                                                        <div class="d-flex align-items-center"><i class="fas fa-circle text-success me-1"></i> Active</div>
                                                     </td>
-                                                  
+
                                                 </tr>
 
-                                                <?php
+                                            <?php
                                             }
                                             ?>
                                         </tbody>

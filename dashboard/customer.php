@@ -22,8 +22,7 @@ function getUser($token)
     $result = $con->query($sql);
     $row = $result->fetch_assoc();
     return $row['user_name'];
-}
-;
+};
 function getCat($id)
 {
     global $con;
@@ -51,7 +50,7 @@ function getCat($id)
     <meta property="og:description" content="Aqartech :  Property Admin Dashboard  Bootstrap 5 Template" />
     <meta property="og:image" content="social-image.png" />
     <meta name="format-detection" content="telephone=no">
-    <title>لوحة التحكم عقارنك</title>
+    <title>لوحة التحكم ود</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
@@ -134,8 +133,7 @@ function getCat($id)
 
                         <a href="javascript:void(0);" class="btn btn-danger rounded me-3">تعديل</a>
                         <a href="javascript:void(0);" class="btn btn-primary rounded light me-3">إعادة تحميل</a>
-                        <a href="javascript:void(0);" class="btn btn-primary rounded"><i
-                                class="fas fa-cog me-0"></i></a>
+                        <a href="javascript:void(0);" class="btn btn-primary rounded"><i class="fas fa-cog me-0"></i></a>
                     </div>
                 </div>
 
@@ -197,7 +195,7 @@ function getCat($id)
                     <div class="col-xl-9 col-xxl-8">
                         <?php
                         while ($prop = $props->fetch_assoc()) {
-                            ?>
+                        ?>
 
                             <div class="row">
                                 <div class="col-xl-12">
@@ -206,12 +204,10 @@ function getCat($id)
                                             <div class="row border-bottom mx-0 pt-4 px-2 align-items-center">
 
 
-                                                <div
-                                                    class="col-xl-3 col-xxl-4 col-lg-6 col-sm-12 mb-sm-4 mb-3 align-items-center media">
-                                                    
-                                                        <img class="me-sm-4 me-3 img-fluid rounded" width="90"
-                                                            src="images/man.png" style="margin:10px" alt="user image">
-                                                     
+                                                <div class="col-xl-3 col-xxl-4 col-lg-6 col-sm-12 mb-sm-4 mb-3 align-items-center media">
+
+                                                    <img class="me-sm-4 me-3 img-fluid rounded" width="90" src="images/man.png" style="margin:10px" alt="user image">
+
 
 
                                                     <div class="media-body">
@@ -228,8 +224,7 @@ function getCat($id)
                                                 </div>
 
 
-                                                <div
-                                                    class="col-xl-2 col-xxl-3 col-lg-3 col-sm-4 mb-sm-4 col-6 mb-3 text-lg-center">
+                                                <div class="col-xl-2 col-xxl-3 col-lg-3 col-sm-4 mb-sm-4 col-6 mb-3 text-lg-center">
                                                     <small class="mb-2 d-block">العنوان</small>
                                                     <span class="text-black font-w600">
                                                         <?php echo $prop['prop_address']; ?>
@@ -246,10 +241,8 @@ function getCat($id)
                                                 <div class="col-xl-2 col-xxl-2 col-lg-3 col-sm-4 mb-sm-4">
                                                     <div class="dropdown ms-4  mt-auto mb-auto">
                                                         <div class="btn-link" data-bs-toggle="dropdown">
-                                                            <svg width="24px" height="24px" viewBox="0 0 24 24"
-                                                                version="1.1">
-                                                                <g stroke="none" stroke-width="1" fill="none"
-                                                                    fill-rule="evenodd">
+                                                            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                                                     <rect x="0" y="0" width="24" height="24"></rect>
                                                                     <circle fill="#000000" cx="5" cy="12" r="2"></circle>
                                                                     <circle fill="#000000" cx="12" cy="12" r="2"></circle>
@@ -258,8 +251,7 @@ function getCat($id)
                                                             </svg>
                                                         </div>
                                                         <div class="dropdown-menu dropdown-menu-end">
-                                                            <a class="dropdown-item"
-                                                                href="customer.php?user_id=<?php echo "1" ?>">عرض
+                                                            <a class="dropdown-item" href="customer.php?user_id=<?php echo "1" ?>">عرض
                                                                 البيانات</a>
                                                             <a class="dropdown-item" href="javascript:void(0);">حذف</a>
                                                         </div>
@@ -271,7 +263,7 @@ function getCat($id)
                                 </div>
                             </div>
 
-                            <?php
+                        <?php
                         }
                         ?>
                     </div>

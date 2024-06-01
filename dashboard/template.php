@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,7 @@
 	<meta property="og:description" content="Aqartech :  Property Admin Dashboard  Bootstrap 5 Template" />
 	<meta property="og:image" content="social-image.png" />
 	<meta name="format-detection" content="telephone=no">
-	<title>لوحة التحكم عقارنك</title>
+	<title>لوحة التحكم ود</title>
 	<!-- Favicon icon -->
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
 	<link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">

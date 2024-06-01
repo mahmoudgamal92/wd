@@ -241,7 +241,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-span,a,li,p {
+  body , button,span,a,li,p,label,input,small,h1,h2,h3,h4,h5,h6 {
   font-family: var(--bs-body-font-family);
 }
 hr {
@@ -261,7 +261,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 500;
   line-height: 1.2;
   color: #3d4465; }
-h1, .h1 {SSS
+h1, .h1 {
   font-size: calc(1.35rem + 1.2vw); }
   @media (min-width: 1200px) {
     h1, .h1 {
@@ -440,16 +440,6 @@ button {
 
 button:focus:not(:focus-visible) {
   outline: 0; }
-
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
 
 button,
 select {
@@ -3202,11 +3192,14 @@ textarea.form-control {
   white-space: nowrap; }
 
 .navbar-nav {
+  width: "100%";
   display: flex;
-  flex-direction: column;
+  justify-content:"space-between";
+  flex-direction: row;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none; }
+  list-style: none; 
+}
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
@@ -3802,6 +3795,13 @@ textarea.form-control {
   padding-left: 0;
   list-style: none; }
 
+.page_header{
+  display: flex;
+  justify-content: space-between;
+  align-items:center
+
+  
+}
 .page-link {
   position: relative;
   display: block;
